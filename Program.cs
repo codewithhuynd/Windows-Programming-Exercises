@@ -22,15 +22,15 @@ namespace ConsoleApp1
             }
             else if (delta > 0)
             {
-                double x1 = -b + Math.Sqrt(delta) / 2 * a;
-                double x2 = -b - Math.Sqrt(delta) / 2 * a;
+                double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+                double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
                 Console.WriteLine("Phương trình có hai nghiệm phân biệt: ");
                 Console.Write($"x1 = {x1}; x2 ={x2}");
             }
             else
             {
                 Console.WriteLine("Phương trình có nghiệm kép: ");
-                Console.Write($"x = {-b / 2 * a}");
+                Console.Write($"x = {-b / (2 * a)}");
             }
 
 
