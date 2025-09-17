@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nhap vao ten ban:");
+            Console.WriteLine("Nhập vào tên của bạn:");
             string name = Console.ReadLine().Trim();
-            Console.WriteLine("Xin chao " + name);
+            Console.WriteLine($"Xin chào bạn {name}");
         }
     }
 }
